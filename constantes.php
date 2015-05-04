@@ -2,6 +2,8 @@
 
 define('CONSTANTE', 'Oi, mundo.', true);
 
+//Para melhor segurança use o terceiro argumento true. Por padrão ele é false.
+
 echo CONSTANTE;
 echo constante;
 
