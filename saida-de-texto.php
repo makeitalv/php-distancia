@@ -18,6 +18,7 @@ echo '<br><pre>';
 //o mais indicado é a concatenação com aspas simples
 echo 'Oi' . "\n" . '\'Oi\'' . $numero . $exclamacao;
 echo '</pre>';
+
 //nao é indicado o uso de aspas duplas
 echo "Oi, numero $numero $exclamacao";
 
